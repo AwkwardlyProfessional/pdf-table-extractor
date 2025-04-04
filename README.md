@@ -38,12 +38,19 @@ python extract_tables.py
 
 ## File Structure
 ```
-📂 project-folder/
- ├── 📂 input_pdfs/
- │    ├── test3.pdf  # Place your PDFs here
+📂 PDF-TABLE-EXTRACTOR/
+ ├── 📂 input_pdfs/           # Folder containing input PDFs
+ │    ├── test3.pdf
+ │    ├── test6.pdf
  │
- ├── extract_tables.py  # Main script to run
- ├── test3.xlsx  # Output file after extraction
+ ├── 📂 excel_output/         # Folder containing extracted Excel files
+ │    ├── test3.xlsx
+ │    ├── test6.xlsx
+ │
+ ├── .gitignore               # Git ignore file
+ ├── extract_tables.py        # Main script to extract tables
+ ├── README.md                # Documentation
+ ├── requirements.txt         # List of dependencies
 ```
 
 ## Example Code
